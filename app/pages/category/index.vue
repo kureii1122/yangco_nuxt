@@ -17,6 +17,7 @@
 
     <v-data-table
       :headers="headers"
+      
       :items="category.data"
       :search="search"
     ></v-data-table>
